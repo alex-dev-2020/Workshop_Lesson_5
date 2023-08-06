@@ -1,0 +1,22 @@
+
+
+#include<iostream>
+
+int main()
+{
+     while(true)
+    {
+    
+    std::string command;
+    std::cout << "Pls input exit command ( 'q' or 'quit')" << std::endl;
+    std::cin >> command;
+        if(command == "q" || command == "quit")
+        {
+            std::cout << "Your loop is over"<< std::endl;
+            break;
+        }
+
+    return 0;
+    }
+}
+ 
