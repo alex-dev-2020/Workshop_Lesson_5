@@ -2,10 +2,11 @@
 
 #include<iostream>
 
-std::string s;
+
 
 int main()
 {
+    std::string s;
     
     do{
         std::cout <<"введите букву `а` "<< std::endl;
